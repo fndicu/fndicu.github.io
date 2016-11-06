@@ -2,7 +2,7 @@
 /* General CSS applied to the body*/
 body{
 
-	background-image: url("images/city.jpg");
+	background-image: url("../images/city.jpg");
 	background-size: cover;
 	
 
