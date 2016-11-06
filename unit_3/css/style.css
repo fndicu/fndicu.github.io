@@ -1,5 +1,12 @@
 
 /* General CSS applied to the body*/
+header{
+
+	padding-bottom: 50px;
+	border-style: solid;
+
+}
+
 body{
 	background-image: url("../images/hero_image.jpg");
 	background-size: cover;
@@ -13,7 +20,7 @@ body{
 	text-align: center;
 	font-size:25px;
     font-style: italic;
-    border-style: solid;
+    
 } 
 
 h1{
