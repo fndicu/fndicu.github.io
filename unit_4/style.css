@@ -13,29 +13,20 @@
 
 header{
 
-	font-family:'Roboto', sans-serif;
-	font-size: 70px;
+	font-family:'Roboto', sans-serif;;
+	border-style: solid;
 	background-image: url("../images/hero_image.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
- 
-    min-height: 500px;
-
-
 	min-width:100%;
 	color: #fff;
 
 
 }
-header a {
 
-
-}
 nav{
 
 	background: #d3d3d3;
 	text-decoration: none;
-	font-size: 30px;
 
 	
 }
@@ -60,7 +51,7 @@ ul {
 main{
 
 	font-family: 'Droid Serif', serif;
-	background: #d3d3d3;
+	color: #d3d3d3;
 	font-family: helvetica;
 	text-decoration: none;
 	font-size: 18px;
@@ -68,7 +59,7 @@ main{
 
 }
 
-h1, {
+h1 h2{
 	text-align: center;
 	font-size: 130px;
 	padding: 30px;
@@ -80,11 +71,6 @@ hr{
  	border-color: #fff;
  	text-align: center;
  	width: 100%;
- }
-
-article{
-
- 	display: block;
  }
 
 /*aside{
@@ -106,32 +92,33 @@ footer a{
 }
 
 
-footer {
+footer{
 
 	background: #d3d3d3;
-	color: black;
+	color: #fff;
 	display: block;
-	text-align: center;
-  	padding: 1em 0;
-  	clear: both;
+	padding: 50px;
 }
 
 
+div{
 
+	display:block;
+	padding: 30px;
+}
 
 #wrapper {
 
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 5%;
-  display: block;
 }
 
-
+}
   
 #slogan {
 	text-align: center;
-	font-size:50px;
+	font-size:25px;
     font-style: italic;
 	padding: 30px;
 
