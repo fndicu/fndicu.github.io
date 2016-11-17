@@ -95,7 +95,11 @@ h1, {
 
 article{
 
+
+ 
  	display: block;
+    float: left;
+    padding: 2em
  }
 
 /*aside{
@@ -152,6 +156,12 @@ footer {
 
     
 } 
+
+#featured{
+
+float:left;
+
+}
 /* main offerings section*/
 #outdoor_fitness {
 	display: block;
