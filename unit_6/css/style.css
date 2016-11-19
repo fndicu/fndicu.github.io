@@ -1,0 +1,205 @@
+
+/* General CSS applied to the body*/
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Roboto');
+
+
+
+*{
+
+	margin: 0px;
+	padding:0px;
+} 
+
+header{
+
+	font-family:'Roboto', sans-serif;
+	font-size: 40px;
+	background-image: url("../images/hero_image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+ 	text-align: center;
+    min-height: 500px;
+    min-width:100%;
+	color: #fff;
+
+
+}
+header a {
+
+	padding: .5em;
+
+}
+nav{
+
+	background: #d3d3d3;
+	text-decoration: none;
+	font-size: 30px;
+
+	
+}
+
+nav ul{
+
+
+    list-style-type: none;
+    text-align: left;
+    padding: .3em;
+
+}
+
+nav a{
+
+	color: #ffffff;
+	text-size: 50px;
+	text-align: left;
+
+}
+
+a{
+
+	color: inherit;
+	text-decoration: #d3d3d3;
+}
+
+ul {
+    
+    list-style-type: none;
+}
+
+main{
+
+	font-family: 'Droid Serif', serif;
+	background: #d3d3d3;
+	padding: 2em;
+	font-family: helvetica;
+	text-decoration: none;
+	font-size: 18px;
+    list-style-type: none;
+
+}
+
+h1, {
+	text-align: center;
+	font-size: 130px;
+	padding: 30px;
+}
+ 
+/*hr{
+
+ 	border-width: 1.5px;
+ 	border-color: #fff;
+ 	text-align: center;
+ 	width: 100%;
+ }*/
+
+article{
+
+ 	display: block;
+ }
+
+aside{
+
+	float: left;
+	display: block;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 30px;	
+
+
+
+} 
+
+footer a{
+
+	text-decoration: none;
+	color: #000;
+	margin:30px 0;
+	display: block;
+
+}
+
+
+footer {
+
+	background: rgb(207,226,243);
+	color: black;
+	display: block;
+	text-align: center;
+  	clear: both;
+  	padding-top: .5em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.post-content {
+
+
+	float: left;
+}
+
+
+
+#wrapper {
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+  display: block;
+}
+
+
+  
+#slogan {
+	text-align: center;
+	font-size:50px;
+    font-style: italic;
+	padding: 30px;
+
+
+    
+} 
+/* main offerings section*/
+#outdoor_fitness {
+	display: block;
+	float: right;
+	margin: 0 auto;
+	padding: 30px;
+	max-width: 500px;
+
+}
+
+#night_life{
+	display: block;
+	float:right;
+	margin: 0 auto;
+	padding: 30px;
+	max-width: 500px;
+
+}
+
+#culture{
+	display: block;
+	float:right;
+	margin: 0 auto;
+	padding: 30px;
+	max-width: 500px;
+
+	
+}
+
+#food{
+	display: block;
+	float:right;
+	margin: 0 auto;
+	padding: 30px;
+	max-width: 500px;
+
+}
