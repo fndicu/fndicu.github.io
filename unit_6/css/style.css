@@ -27,7 +27,8 @@ header{
 }
 header a {
 
-	padding: .5em;
+	padding: 1em;
+	text-decoration: none;
 
 }
 nav{
@@ -35,6 +36,7 @@ nav{
 	background: #d3d3d3;
 	text-decoration: none;
 	font-size: 30px;
+	padding:1em 0;
 
 	
 }
@@ -43,8 +45,8 @@ nav ul{
 
 
     list-style-type: none;
-    text-align: left;
-    padding: .3em;
+    text-align: center;
+    padding: 0 3em;
 
 }
 
@@ -140,9 +142,10 @@ footer {
 }
 
 .post-content {
-
-
-	float: left;
+    
+   
+	float: right;
+	width: 33%;
 }
 
 .icon img{
@@ -162,8 +165,9 @@ footer {
 }
 
 #featured {
-
+	width:33%;
 	text-align: center;
+	float:left;
 
 }
 
