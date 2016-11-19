@@ -145,14 +145,26 @@ footer {
 	float: left;
 }
 
+.icon img{
+
+	padding: .5em;
+	text-align: center;
+	border-radius: 50%;
+}
 
 
 #wrapper {
 
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 5%;
-  display: block;
+	max-width: 1200px;
+ 	margin: 0 auto;
+ 	padding: 0 5%;
+  	display: block;
+}
+
+#featured {
+
+	text-align: center;
+
 }
 
 
