@@ -18,12 +18,18 @@ header{
 	background-image: url("../images/hero_image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center center center-top;
  	text-align: center;
 	color: #fff;
 	width: 100%;
 	display: block;
  
+
+}
+
+header h1{
+
+	padding: 1em;
 
 }
 header a {
@@ -112,6 +118,13 @@ aside{
 
 } 
 
+section{
+
+	display: block;
+	clear:both;
+
+}
+
 footer a{
 
 	text-decoration: none;
@@ -133,6 +146,7 @@ footer {
 }
 
 .clearfix:after {
+
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -143,7 +157,7 @@ footer {
 
 .post-content {
     
-   margin: 1em 0;
+   margin: 10em 0;
 	float: right;
 	width: 33%;
 }
@@ -156,7 +170,7 @@ footer {
 }
 
 #intro{
-	display: blo
+	display: block;
 	margin: 0 0 0 1em;
 	clear:both;
 
@@ -168,6 +182,7 @@ footer {
  	margin: 1em auto;
  	padding: 5em 5%;
   	display: block;
+  	clear: both;
 }
 
 #featured {
@@ -175,7 +190,7 @@ footer {
 	text-align: center;
 	float:left;
 	display: block;
-	margin: 1em 0;
+	margin: 10em 0;
 	padding: 30px;
 	width:500px;
 
@@ -192,7 +207,7 @@ footer {
 	text-align: center;
 	font-size:50px;
     font-style: italic;
-	padding: 30px;
+	padding: 4em;
 
 
     
