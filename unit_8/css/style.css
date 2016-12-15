@@ -1,0 +1,425 @@
+
+/* General CSS applied to the body*/
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,400|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+
+
+
+*{
+
+	margin: 0px;
+	padding:0px;
+	
+} 
+nav { 
+	font-family:'Roboto', sans-serif;
+	font-size: 40px
+ 	text-align: center;
+	color: #fff;
+	display: block;
+	position: fixed;
+	width: 100%;
+	padding-bottom: 1em;
+	overflow: hidden;
+ }
+header {
+
+	;
+
+	background: url("../images/hero_image.jpg")  ;
+	background-size: cover;
+	background-position: 100% 100%
+	background-repeat: no-repeat;
+	
+
+ 	text-align: center;
+	color: #fff;
+	height:1000px;
+	width: 100%;
+	display: block;
+ 
+
+}
+body{
+
+	background:#e9ebeee;
+}
+
+button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.9375em;
+}
+
+header h1{
+
+	font-size: 100px;
+	font-family: 'Monoton', cursive;
+	padding-top: 2.17em;
+
+}
+nav a {
+
+	padding: 1em;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+
+	background: #008CBA;
+	
+}
+nav{
+
+	background: rgba(0, 0, 0, 0.62);
+	text-decoration: none;
+	font-size: 30px;
+	padding:1em 0;
+
+	
+}
+
+nav ul{
+
+
+    list-style-type: none;
+    text-align: center;
+    padding: 0 3em;
+
+}
+
+nav a{
+
+	color: #ffffff;
+	text-size: 50px;
+	text-align: left;
+
+}
+
+a{
+
+	color: inherit;
+	text-decoration: #d3d3d3;
+}
+
+ul {
+    
+    list-style-type: none;
+}
+
+main{
+
+	font-family: 'Droid Serif', serif;
+	background: rgb(245, 240, 240);
+	
+	margin: 0 auto;
+	font-family: helvetica;
+	text-decoration: none;
+	font-size: 18px;
+    list-style-type: none;
+    clear: both;
+}
+
+header h1, {
+	text-align: center;
+	font-size: 10em;
+	padding-top: 5em;
+	margin: 5em auto;
+}
+
+
+article{
+
+ 	display: block;
+ }
+
+aside{
+
+	float: left;
+	display: block;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 30px;	
+
+} 
+
+section{
+
+	display: block;
+	clear:both;
+
+}
+
+
+input[type=text] {
+
+
+
+
+}
+
+h2{
+
+    margin-top: -5px;
+    text-align: center;
+    padding-bottom: 1em;
+    line-height: 2em;
+    padding-top: .5em;
+	
+    }
+
+
+ p, h2{
+
+	background:rgb(0, 53, 71);
+    color: whitesmoke;
+    line-height: 1.5em;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+  
+}
+
+footer a{
+
+	text-decoration: none;
+	color: #fff;
+	margin:30px 0;
+	display: block;
+
+}
+
+
+
+footer {
+
+	background: rgb(0, 53, 71);
+	color: white;
+	display: block;
+	text-align: center;
+  	clear: both;
+  	padding-top: .5em;
+}
+
+#section_two{
+
+	background: rgb(0, 53, 71);
+
+}
+.one{
+
+	max-width: 100%;
+	background: rgb(0, 53, 71);
+
+}
+
+.right_column{
+
+	float: right;
+	width: 35%;
+	background: white;
+	display: block;
+	text-align: center;
+	padding-top: 150px;
+    height: 180px;
+
+}
+	
+}
+
+.left_column{
+
+	float: left;
+	display: block;
+	width: 33%;
+}
+.left_column p{
+
+	font-size:29.6px;
+	padding: 40px;
+}
+.clearfix:after {
+
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.post-content {
+    
+    margin: 10.5em 1Sem;
+	float: right;
+/*	width: 45%; */
+	width: 45%;
+    height: 700px;
+    overflow: scroll;
+}
+
+
+
+.icon img{
+
+	padding: .5em;
+	text-align: center;
+	border-radius: 50%;
+}
+
+#intro{
+	display: block;
+	background:rgb(0, 53, 71);
+	float: left;
+	width: 65%;
+	clear:both;
+	height: 330px;
+	}
+
+#featured, #outdoor_fitness, #night_life, #culture, #food{
+
+	
+	display: block;
+	float: right;
+	margin: 1em 1em;
+	padding: 1em;
+	max-width: 400px;
+	background:white;
+	
+
+}
+
+#event h1{
+
+	text-align: center;
+
+}
+
+#wrapper {
+
+
+  	display: block;
+  	clear: both;
+ 	max-width: 1800px;
+ 	
+}
+
+#featured {
+	width:45%;
+	text-align: center;
+	float:left;
+	display: block;
+	/*margin: 11.5em 1em;*/
+	width:400px;
+
+
+}
+
+#featured p{
+	width: 400px;
+	
+}
+
+#featured img{
+
+	width: 400px;
+}
+
+
+  
+#slogan {
+	text-align: center;
+	font-size:50px;
+    font-style: italic;
+	padding: 4em;
+
+
+    
+} 
+
+.event {
+
+	background: pink;
+}
+
+
+@media screen and (max-width: 1024px) {
+   
+   nav{
+   	background: #000;
+   	position: static;
+   }
+   nav a{
+	display: block;   	
+   }
+
+   nav ul{
+   	padding: 0;
+
+   }
+   .post-content{
+    
+    margin: 10.5em 1em;
+	float: right;
+	width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+#intro {
+
+	width:100%;
+}
+
+.right_column{
+
+	float: right;
+    width: 100%;
+    background: white;
+    display: block;
+    text-align: center;
+    padding-top: 71px;
+    height: 10em;
+}
+
+#featured{
+
+	display:none;
+}
+
+  
+
+}
+
+@media screen and (max-width: 400px) {
+
+header h1{
+
+	font-size: 3rem;
+	font-family: 'Monoton', cursive;
+	padding-top: 2.17em;
+
+}
+
+nav{
+
+	font-size:1.5em;
+	g
+}
+
+button {
+
+font-size: 1em;
+margin:3em;
+}
+
+
+}
