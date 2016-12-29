@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <html>
 
 
 <head>
 	<title>Boston Social</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css"> 
-	<script src="http://cdn2.hubspot.net/hubfs/2271693/mobile-menu.js?t=1482095820053"> </script> 
-
+	
 </head>
 <body>
 	<!-- Test comment 2 -->
-	<nav class="custom-menu-primary">
-			<ul>
+				<nav class="custom-menu-primary">
+				<ul class="topnav" id="myTopnav">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#news">News</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about">About</a></li>
+				<li class="icon">
+				<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+				</li>
+				</ul>
+	<!--<ul id="menu">
 				<a href="#">Home</a>
 				<a href="#">About Us</a>
 				<a href="#">Contact Us</a>
 				<a href="#">Gallery</a>
 
 			</ul>
+			-->
 	</nav>
 	<header> 
 		
@@ -115,7 +125,7 @@
 			</div>	
 	</main>
 	
-	<footer>
+		<footer>
 	<div id="wrapper">
 		<p>Contact Us</p>
 		<ul>
@@ -127,6 +137,17 @@
 			
 		</div> -->
 		</div>
+		
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 	</footer>
 </body>
 </html>
