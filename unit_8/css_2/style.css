@@ -252,18 +252,22 @@ td { vertical-align: top; }
 }
 
 /* Titles */
+
+/*
+
 h1 {
   font-family: "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 0.9em;
   text-transform: uppercase;
-  color: #000;
-  letter-spacing: .2em;
+ /* color: #000; */
+  /*letter-spacing: .2em;
   line-height: 1;
   text-align: center;
   margin: 0;
   display: inline;
 }
+*/
 
 h1 a {
   color: #000;
