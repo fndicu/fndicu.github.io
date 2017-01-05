@@ -71,11 +71,12 @@
 		</div>	
 		-->
 
-		<div id="wrapper" class="clearfix">	
+		<div id="wrapper" class="clearfix"  style="background: url('https://cdn.pixabay.com/photo/2014/10/26/15/26/board-503944_960_720.jpg');">	
 
 
-		<div class="clearfix">
+		 <div class="clearfix" style="margin-bottom: 45em; margin-left: 1em; height: 700px;">
 			
+		<!--	
 			 <div class="item">
 		      <img src="images/club_pic.jpg" alt="clubphoto" />
 		    </div>
@@ -84,11 +85,11 @@
 		      <img src="images/drinks.jpg" alt="drinks" />
 		    </div>
 		    
-		    <div class="item featured">
+		    <div class="item ">
 		      <img src="images/rock_climbing.jpg" alt="" />
 		    </div>
 		    
-		    <div class="item featured">
+		    <div class="item ">
 		      <img src="images/city.jpg" alt="" />
 		    </div>
 
@@ -97,7 +98,7 @@
 		      <img src="images/dinner.jpg" alt="" />
 		    </div>
 
-		    <div class="item featured">
+		    <div class="item ">
 		      <img src="images/kayak.jpg" alt="" />
 		    </div>
 
@@ -111,7 +112,13 @@
 
 		</div>
 
-			<div id="featured" class="clearfix">
+		-->
+		
+
+
+
+		<div class="clearfix" >
+			<div id="featured" class="clearfix item featured">
 					
 				<img style="max-width:400px;" src="images/placeholder.png">
 				<h2> Featured Event Agenda</h2>
@@ -127,9 +134,9 @@
 					
 				</div>
 
-				<div class="post-content" class="clearfix "> 
+				<div class="post-content" class="clearfix"> 
 					
-					<article id="outdoor_fitness" class="clearfix">
+					<article id="outdoor_fitness" class="clearfix item " >
 						<img title="outdoor and finess" alt="hikers" src="images/outdoor_fitness.jpg">
 						<h2>Outdoor and Fitness</h2>
 						<p>
@@ -138,7 +145,7 @@
 						</p>
 					</article>
 
-					<article id="night_life" class="clearfix">
+					<article id="night_life" class="clearfix item featured ">
 						<img title="Night Life" alt="club" src="images/club.jpg">
 						<h2>Night Life</h2>
 						<p>
@@ -147,7 +154,7 @@
 						</p>
 					</article>
 
-					<article id="culture" class="clearfix">
+					<article id="culture" class="clearfix item featured">
 						<img title="Culture and Arts" alt="art" src="images/fine_arts.jpg">
 						<h2>Culture and Arts</h2>
 						<p>
@@ -156,7 +163,7 @@
 						</p>
 					</article>
 
-					<article id="food" class="clearfix">
+					<article id="food" class="clearfix item featured">
 						<img title="food" alt="plates of food" src="images/food.jpg">
 						<h2>Food and Cuisine</h2>
 						<p>
@@ -166,7 +173,9 @@
 					</article>
 					
 				</div> 
-			</div>	
+		
+			</div>
+		</div>			
 	</main>
 	
 		<footer>
@@ -186,6 +195,7 @@
 
 
 
+
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -197,7 +207,23 @@ function myFunction() {
 }
 </script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	// Initialize Masonry
+	$('#wrapper').masonry({
+		columnWidth: 320,
+		itemSelector: '.item',
+		isFitWidth: true,
+		isAnimated: !Modernizr.csstransitions
+	}).imagesLoaded(function() {
+		$(this).masonry('reload');
+	});
+
+});</script>
+
   <script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
 
   <script src="js/jquery.masonry.min.js"></script>
