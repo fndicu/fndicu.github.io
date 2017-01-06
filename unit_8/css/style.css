@@ -158,12 +158,8 @@ section{
 }
 
 
-input[type=text] {
 
 
-
-
-}
 
 h2{
 
@@ -232,7 +228,7 @@ footer {
 }
 	
 }
-
+/*
 .left_column{
 
 	float: left;
@@ -243,7 +239,7 @@ footer {
 
 	font-size:29.6px;
 	padding: 40px;
-}
+} */
 .clearfix:after {
 
     visibility: hidden;
@@ -254,29 +250,11 @@ footer {
     height: 0;
 }
 
-.post-content {
-    
-    /*margin: 10.5em 1em; */
-	float: right;
-/*	width: 45%; */
-/*width: 45%; */
-    height: 700px;
-    overflow: scroll;
-}
-
-.post-content img{
-
-	max-width: 400px;
-}
 
 
-.icon img{
 
-	padding: .5em;
-	text-align: center;
-	max-width: 90px;
-	border-radius: 50%;
-}
+
+
 
 #intro{
 	display: block;
@@ -286,7 +264,7 @@ footer {
 	clear:both;
 	min-height: 330px;
 	}
-
+/*
 #featured, #outdoor_fitness, #night_life, #culture, #food{
 
 	
@@ -297,7 +275,7 @@ footer {
 	max-width: 400px;
 	background: rgba(0, 0, 0, 0.66)	
 
-}
+} */
 
 #event h1{
 
@@ -310,10 +288,17 @@ footer {
 
   	display: block;
   	clear: both;
- 	/*max-width: 1800px; */
+  	width: 100% !important;
  	
-}
+ 	
 
+}
+.item{
+
+	padding: px;
+
+}
+/*
 #featured {
 	width:45%;
 	text-align: center;
@@ -335,7 +320,7 @@ footer {
 	width: 400px;
 }
 
-
+*/
   
 #slogan {
 	text-align: center;
@@ -349,7 +334,7 @@ footer {
 
 .event {
 
-	background: pink;
+	background: blue;
 }
 
 
@@ -367,14 +352,8 @@ footer {
    	padding: 0;
 
    }
-   .post-content{
-    
-    margin: 10.5em 1em;
-	float: right;
-	width: 100%;
-    height: auto;
-    overflow: visible;
-}
+ 
+
 
 #intro {
 
@@ -392,12 +371,6 @@ footer {
     height: 10em;
 }
 
-#featured{
-
-	display:none;
-}
-
-.grid-item { width: 25%; }
 
   
 

@@ -219,8 +219,8 @@ td { vertical-align: top; }
    ========================================================================== */
 
 #content {
-	/*width: 980px;*/
-	/*width: 95%;*/
+	width: 980px;
+	width: 95%;
 	width: auto;
 	margin: 0 auto;
 }
@@ -229,7 +229,7 @@ td { vertical-align: top; }
 	display: block;
 	float: left;
 	width: 300px;
-	margin: 0 20px 20px 0;
+	margin: 20px 20px 20px 0px;
 	-webkit-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
 	-moz-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
 	-ms-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
@@ -238,7 +238,7 @@ td { vertical-align: top; }
 }
 
 .featured {
-	width: 620px;
+	width: 620px; 
 }
 
 .item img {
@@ -264,7 +264,7 @@ h1 {
   /*letter-spacing: .2em;
   line-height: 1;
   text-align: center;
-  margin: 0;
+  margin: 0;az
   display: inline;
 }
 */
