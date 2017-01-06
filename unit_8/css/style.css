@@ -264,6 +264,11 @@ footer {
 	clear:both;
 	min-height: 330px;
 	}
+
+#intro p{
+	padding-top: 1.50em;
+	font-size: 1.75em;
+}
 /*
 #featured, #outdoor_fitness, #night_life, #culture, #food{
 
